@@ -1,0 +1,40 @@
+header {
+  background-color: ##EEEEEE;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.byline{
+  font-family: Helvetica;
+  float: left;
+  padding-left: 20px;
+  letter-spacing: 4px;
+  font-size: 40px;
+}
+
+.logo{
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  display:block;
+}
+
+.banner {
+    background-image: url("risdtstore.png");
+    height: 100%; 
+    width: 100%;
+    background-size: cover;
+    background-position: fixed;
+    opacity: 0.8;
+}
+
+
+
